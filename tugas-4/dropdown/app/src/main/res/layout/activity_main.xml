@@ -9,18 +9,22 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:text="PILIHAN GAME TERBAIK"
+        android:text="APLIKASI MENU MAKANAN"
         android:textAlignment="center"
         android:textSize="30dp"
         android:layout_height="wrap_content"/>
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Makanan Favorit Anak Zaman Now"
+        android:textAlignment="center"/>
     <Spinner
         android:id="@+id/combodata"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="90dp"/>
 
-    <ListView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listdata"
         android:layout_width="match_parent"
         android:layout_weight="1"

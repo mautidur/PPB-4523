@@ -3,9 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/project/ppb-2021/pertemuan-4/dropdown/app/src/main/res/layout/activity_main.xml" value="0.18085106382978725" />
-        <entry key="..\:/project/ppb-2021/tugas-4/dropdown/app/src/main/res/layout/activity_detailmakanan.xml" value="0.276268115942029" />
-        <entry key="..\:/project/ppb-2021/tugas-4/dropdown/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/project/ppb-2021/UTS/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/project/ppb-2021/UTS/app/src/main/res/layout/activity_second.xml" value="0.33" />
+        <entry key="..\:/project/ppb-2021/UTS/app/src/main/res/layout/my_row.xml" value="0.33" />
       </map>
     </option>
   </component>
