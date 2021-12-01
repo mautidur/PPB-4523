@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 bd.deleterecord(Integer.parseInt(nomor));
-                                listviewku.remove(position);
+                                bd.deleterecord(position);
                                 listView.invalidateViews();
                             }
                         })
