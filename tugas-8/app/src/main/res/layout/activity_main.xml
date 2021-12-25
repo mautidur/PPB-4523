@@ -1,89 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ENTRY DATA SISWA"
+        android:text="Entry Data Siswa"
         android:textSize="20dp"
         android:textAlignment="center"
-        android:textColor="@color/design_default_color_primary"/>
-
+        android:textColor="@color/purple_700" />
     <View
-        android:layout_width="match_parent"
-        android:layout_height="15dp">
+        android:layout_width="0dp"
+        android:layout_height="10dp">
     </View>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:padding="10dp"
-            android:orientation="vertical">
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                android:text="Nama Siswa     :"/>
-            <View
-                android:layout_width="0dp"
-                android:layout_height="20dp"></View>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="NIM          :"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:text="NIM                 :"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="220dp"
-            android:layout_height="100dp"
-            android:orientation="vertical"
-            >
-            <EditText
-                android:id="@+id/nmmhs"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"/>
+                android:textStyle="bold" />
+
             <EditText
                 android:id="@+id/nimmhs"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="19dp"
+                android:textStyle="bold" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:padding="20dp"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/tombolSave"
-            android:layout_width="143dp"
-            android:layout_height="60dp"
-            android:text="SAVE"
-            android:textSize="20dp"
-            />
-        <View
-            android:layout_width="10dp"
-            android:layout_height="0dp"></View>
-        <Button
-            android:id="@+id/tombolView"
-            android:layout_width="143dp"
-            android:layout_height="60dp"
-            android:text="VIEW"
-            android:textSize="20dp"
-            />
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="Nama       :"/>
+            <EditText
+                android:id="@+id/nmmhs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19dp"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
     </LinearLayout>
-
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"></View>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/tblsave"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:text="Save"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="0dp"></View>
+            <Button
+                android:id="@+id/tblview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:text="View"/>
+    </LinearLayout>
 </LinearLayout>

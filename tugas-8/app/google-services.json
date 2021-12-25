@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "1090270669900",
-    "project_id": "project8-7841e",
-    "storage_bucket": "project8-7841e.appspot.com"
+    "project_number": "279128054947",
+    "project_id": "wannasleep-5af69",
+    "storage_bucket": "wannasleep-5af69.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1090270669900:android:07ef0834198a2c562398e9",
+        "mobilesdk_app_id": "1:279128054947:android:e984a0dc15a944f6c4b316",
         "android_client_info": {
-          "package_name": "com.example.project8"
+          "package_name": "com.sleep.firebase"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1090270669900-jj7q8cfuks7kuuvi9cq5vcks5jop01pd.apps.googleusercontent.com",
+          "client_id": "279128054947-j5dphk11rij4gkbs078eqobb1rfe1mlr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDu40ux5kS1Bso-WHlO63XdFrHlU1eZ5l4"
+          "current_key": "AIzaSyA3uv0FQmnbbhzJ7cAjq9IvTgLHoKhTirc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1090270669900-jj7q8cfuks7kuuvi9cq5vcks5jop01pd.apps.googleusercontent.com",
+              "client_id": "279128054947-j5dphk11rij4gkbs078eqobb1rfe1mlr.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
