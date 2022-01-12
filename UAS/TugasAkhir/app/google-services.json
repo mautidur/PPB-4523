@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "279128054947",
+    "project_id": "wannasleep-5af69",
+    "storage_bucket": "wannasleep-5af69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279128054947:android:e984a0dc15a944f6c4b316",
+        "android_client_info": {
+          "package_name": "com.sleep.tugasakhir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279128054947-j5dphk11rij4gkbs078eqobb1rfe1mlr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3uv0FQmnbbhzJ7cAjq9IvTgLHoKhTirc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279128054947-j5dphk11rij4gkbs078eqobb1rfe1mlr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
