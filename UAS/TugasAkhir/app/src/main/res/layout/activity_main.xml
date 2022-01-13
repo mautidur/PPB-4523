@@ -7,17 +7,18 @@
     tools:context=".MainActivity"
     android:padding="15dp"
     android:orientation="vertical"
-    android:background="#C7E3C7">
+    android:background="@drawable/bg2">
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="90dp"
-        android:src="@drawable/logotop"/>
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bordertop"/>
 
     <ListView
-        android:paddingTop="90dp"
         android:id="@+id/list_item"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:paddingTop="90dp" />
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="65dp"

@@ -62,9 +62,4 @@ public class Helper extends SQLiteOpenHelper {
         database.execSQL(QUERY);
     }
 
-    public void display(int id, String jenis){
-        SQLiteDatabase database = this.getWritableDatabase();
-        String QUERY = "SELECT jenis FROM users";
-        database.execSQL(QUERY);
-    }
 }
