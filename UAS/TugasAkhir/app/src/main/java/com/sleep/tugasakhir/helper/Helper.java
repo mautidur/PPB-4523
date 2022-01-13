@@ -61,4 +61,10 @@ public class Helper extends SQLiteOpenHelper {
         String QUERY = "DELETE FROM users WHERE id = "+id;
         database.execSQL(QUERY);
     }
+
+    public void display(int id, String jenis){
+        SQLiteDatabase database = this.getWritableDatabase();
+        String QUERY = "SELECT jenis FROM users";
+        database.execSQL(QUERY);
+    }
 }

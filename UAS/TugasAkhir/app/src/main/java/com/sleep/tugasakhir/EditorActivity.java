@@ -35,9 +35,9 @@ public class EditorActivity extends AppCompatActivity {
         jenis = getIntent().getStringExtra("jenis");
 
         if (id==null || id.equals("")){
-            setTitle("Tambah Wishlist");
+            setTitle("Tambah");
         }else{
-            setTitle("Edit Wishlist");
+            setTitle("Edit");
             editname.setText(name);
             editharga.setText(harga);
             editjenis.setText(jenis);

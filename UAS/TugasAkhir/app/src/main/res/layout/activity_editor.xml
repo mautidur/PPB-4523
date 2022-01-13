@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
+    android:background="@drawable/bg1"
     tools:context=".EditorActivity">
 
     <TextView
@@ -38,8 +39,9 @@
         android:id="@+id/edit_jenis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text"
-        android:layout_marginBottom="150dp"/>
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:layout_marginBottom="100dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
