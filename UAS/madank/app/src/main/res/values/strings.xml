@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MenuMakan</string>
+
+    <string-array name="namamenu">
+        <item>Bakso Basic</item>
+        <item>Bakso Kering</item>
+        <item>Bakso Bakar</item>
+        <item>Bakso Ikan</item>
+        <item>Bakso Isi Daging</item>
+        <item>Bakso Isi Telor</item>
+        <item>Bakso Mercon</item>
+    </string-array>
+
+    <string-array name="descmenu">
+        <item>Bakso kosongan biar harimu gak kosong, biar bisa kamu kasih topping suka suka.</item>
+        <item>Bakso kering, buat disimpen dirumah dan dibikin kapan aja.</item>
+        <item>Bakso bakar, kalo kamu bosen bakso yang pake kuah.</item>
+        <item>Bakso ikan, kalo kamu gasuka sama daging.</item>
+        <item>Bakso isi daging, isi makin banyak maka perut makin kenyang.</item>
+        <item>Bakso isi telor, sama kayak isi daging, tapi ini isi telor.</item>
+        <item>Bakso mercon, kalo kamu doyan pedes pesen ini dong.</item>
+    </string-array>
+
+    <string-array name="hargamenu">
+        <item>Rp 10.000</item>
+        <item>Rp 7.500</item>
+        <item>Rp 11.000</item>
+        <item>Rp 12.500</item>
+        <item>Rp 12.500</item>
+        <item>Rp 12.000</item>
+        <item>Rp 13.000</item>
+    </string-array>
+</resources>
